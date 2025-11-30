@@ -1,0 +1,179 @@
+ 
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+ }
+ body{
+   background-color: #0A192F;
+   color: white;
+   
+}
+.navbar-nav li a{
+    font-weight: 500;
+    color: white !important;  
+}
+.navbar-nav li a:hover{
+    color: blue !important;
+/*    
+  box-shadow: 1px 1px white;
+  padding: 5px;
+  border-radius: 8px; */
+   
+}
+.image-container{
+    
+    width: 28rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 10px;
+    border-top: 1rem solid black;
+    border-bottom: 1rem solid black;
+    background-image: url("images/dp2.jfif");
+    background-position: center;
+    background-size: 92%;
+    box-shadow:
+     0 0  1rem white,
+     inset 0 0 1rem white;
+
+} 
+.about{
+    color: white;
+    font-weight: 800;
+}
+span.Web{
+    color: blue;
+    font-weight: bold;  
+    font-size:larger;
+}
+.social-menu ul li a{
+   
+    text-decoration: none;
+
+}
+.social-menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.navbar-toggler{
+    background: white;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+.image-container-2{
+    width: 28rem;
+    aspect-ratio: 1;
+    border-radius: 40%;
+    margin: 10px;
+    background-image: url("./images/profile.png");
+    background-position: center;
+    background-size: 90%;
+} 
+.about-me{
+    color: white;
+}
+h1{
+    color: white;
+}
+.folio{
+    color:blue;
+}
+#me{
+    color: blue;
+}
+.Contact{
+    margin-bottom: 10px;
+}
+.fa-github{
+    color: white;
+    font-size: 35px;
+}
+.fa-linkedin{
+   color: white;
+    font-size: 35px;
+    background-color: blue;
+}
+.fa-instagram{
+   
+    color: white;
+    font-size: 35px;
+    background-color: red;
+}
+.fa-facebook{
+    color: white;
+    font-size: 35px;
+    background-color: blue;
+}
+
+.social-icon {
+  font-size: 35px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0d6efd;
+  transform: translateY(-5px);
+}
+
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contactbtn{
+    text-decoration: none !important;
+}
+.contactbtn:hover{
+    color: white !important;
+    
+    
+}
+/* Social icons */
+.social-icon {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #0b2030;    
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: transform .18s ease, color .18s ease, box-shadow .18s ease;
+  border: 1px solid rgba(11,32,48,0.06);
+}
+.social-icon:hover {
+  transform: translateY(-4px);
+  color: #0d6efd;
+  box-shadow: 0 8px 18px rgba(11,32,48,0.12);
+}
+
+
+/* Footer Styling */
+.footer {
+  background: #0a0f1f;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  color: #ffffff;
+  font-size: 1.6rem;
+  transition: 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #0d6efd;
+  transform: translateY(-3px);
+}
+
+.footer h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  color: #8892b0;
+}
