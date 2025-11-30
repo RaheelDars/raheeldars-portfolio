@@ -21,7 +21,7 @@
   border-radius: 8px; */
    
 }
-.image-container{
+/* .image-container{
     
     width: 28rem;
     aspect-ratio: 1;
@@ -36,7 +36,23 @@
      0 0  1rem white,
      inset 0 0 1rem white;
 
-} 
+}  */
+  /* Responsive circular profile image (Bootstrap does most work) */
+.profile-img {
+  max-width: 360px;   /* limits size on large screens */
+  width: 100%;        /* allows it to shrink on small screens */
+  height: auto;
+  object-fit: cover;  /* crop nicely if image aspect differs */
+  border: 8px solid #071528; /* optional border to match style */
+  box-shadow: 0 6px 18px rgba(255,255,255,0.06);
+}
+@media (max-width: 576px) {
+  .profile-img {
+    max-width: 220px;
+    border-width: 6px;
+  }
+}
+
 .about{
     color: white;
     font-weight: 800;
