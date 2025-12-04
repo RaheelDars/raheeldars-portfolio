@@ -221,16 +221,12 @@ h1{
         color: #dbeafe;
         flex-shrink: 0;
       }
-
-
-
-
       :root{
         --primary: #0d6efd;
       }
 
       body{
-        background: #0A192F; /* dark page background to match footer earlier */
+        background: #0A192F; 
         color: #e9eef8;
         min-height: 100vh;
         display: flex;
@@ -255,3 +251,7 @@ h1{
       /* CV button */
       .btn-cv { background: var(--primary); border: none; color: #fff; }
       .btn-cv i { margin-right: 6px; }
+
+
+
+      
