@@ -216,42 +216,9 @@ h1{
     line-height: 1.5;
   }
 
-    footer.footer {
-        background: #091226;
-        color: #dbeafe;
-        flex-shrink: 0;
-      }
-      :root{
-        --primary: #0d6efd;
-      }
-
-      body{
-        background: #0A192F; 
-        color: #e9eef8;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .container-main{
-        padding-top: 28px;
-        padding-bottom: 28px;
-        flex: 1 0 auto;
-      }
-
-      /* Navbar */
-      .navbar{
-        background: transparent;
-      }
-      .navbar .navbar-brand i{ font-style: normal; color: #fff; font-weight: 700; }
-      .navbar .nav-link{ color: rgba(255,255,255,0.85); }
-      .navbar .nav-link:hover{ color: var(--primary); }
-      .navbar .nav-link.active{ color: var(--primary); font-weight: 600; }
-
-      /* CV button */
-      .btn-cv { background: var(--primary); border: none; color: #fff; }
-      .btn-cv i { margin-right: 6px; }
+   .clorbtn:hover{
+       
+        color: green !important;
+   }
 
 
-
-      
